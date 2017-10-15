@@ -1,0 +1,31 @@
+.thumbnail {
+    width: 60px;
+}
+.thumbnail:hover {
+    border: 2px solid pink;
+    margin-bottom: -2px;
+}
+#imageForWath {
+    width:  478px;
+    height: 478px;
+    margin-top: 15px;
+}
+.current {
+    border: 2px solid pink;
+    margin-bottom: -2px;
+}
+#imageForWath .current {
+    opacity: 1;
+    transition: 2s;
+}
+#tooltipContener {
+    border-bottom: 3px solid yellow;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 10px;
+    padding: 5px;
+    display: none;
+        
+}
